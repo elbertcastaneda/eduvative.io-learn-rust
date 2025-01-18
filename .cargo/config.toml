@@ -1,0 +1,14 @@
+[alias]
+lint = [
+  "clippy",
+  "--all-features"
+]
+fmt-all = [
+  "fmt",
+  "--all",
+  "--",
+  "--config",
+  # We can't configure this in rustfmt.toml
+  # because all the options aren't stable yet
+  "imports_granularity=Crate,group_imports=StdExternalCrate"
+]

@@ -1,0 +1,4 @@
+avoid-breaking-exported-api = true
+cognitive-complexity-threshold = 25
+too-many-lines-threshold = 300
+large-error-threshold = 150
